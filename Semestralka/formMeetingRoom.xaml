@@ -1,0 +1,27 @@
+﻿<Window x:Class="Semestralka.formMeetingRoom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semestralka"
+        mc:Ignorable="d"
+        Title="formMeetingRoom" Height="356.4" Width="318.1">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="Name" HorizontalAlignment="Left" Margin="22,19,0,0" VerticalAlignment="Top" Height="26" Width="42"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Height="23" Margin="22,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="268"/>
+        <Label x:Name="label_Copy" Content="Code" HorizontalAlignment="Left" Margin="22,72,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
+        <TextBox x:Name="codeTextBox" HorizontalAlignment="Left" Height="23" Margin="22,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="268"/>
+        <Label x:Name="label_Copy1" Content="Description" HorizontalAlignment="Left" Margin="22,126,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
+        <TextBox x:Name="descriptionTextBox" HorizontalAlignment="Left" Height="23" Margin="22,151,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="268"/>
+        <Label x:Name="label_Copy2" Content="Capacity" HorizontalAlignment="Left" Margin="22,179,0,0" VerticalAlignment="Top" Height="26" Width="54"/>
+        <TextBox x:Name="capacityTextBox" HorizontalAlignment="Left" Height="23" Margin="22,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="268"/>
+        <CheckBox x:Name="videoConferenceCheckBox" IsChecked="False" IsThreeState="False" Content="Video Conference" HorizontalAlignment="Left" Margin="25,240,0,0" VerticalAlignment="Top" Height="15" Width="115"/>
+        <Button x:Name="btnOK" IsDefault="True" Content="OK" HorizontalAlignment="Left" Margin="25,276,0,0" VerticalAlignment="Top" Width="90" Height="36" Click="btnOK_Click"/>
+        <Button x:Name="btnCancel" IsCancel="True" Content="Cancel" HorizontalAlignment="Left" Margin="200,276,0,0" VerticalAlignment="Top" Width="90" Height="36"/>
+
+    </Grid>
+</Window>
